@@ -39,6 +39,32 @@ export interface Meeting {
 
 export const mockMeetings: Meeting[] = [
   {
+    id: "live-1",
+    title: "Weekly Team Standup",
+    date: "2026-03-27",
+    duration: "12 min (live)",
+    participants: 5,
+    status: "in-progress",
+    speakers: [
+      { id: "s1", name: "Sarah Chen", speakingTime: 5, contributions: 8, sentiment: "positive", percentage: 40 },
+      { id: "s2", name: "Marcus Johnson", speakingTime: 4, contributions: 6, sentiment: "neutral", percentage: 30 },
+      { id: "s3", name: "Aisha Patel", speakingTime: 3, contributions: 5, sentiment: "positive", percentage: 30 },
+    ],
+    transcript: [
+      { speaker: "Sarah Chen", time: "00:00", text: "Good morning team. Let's go through our updates quickly." },
+      { speaker: "Marcus Johnson", time: "00:25", text: "I finished the dashboard redesign yesterday, moving on to the API integration." },
+      { speaker: "Aisha Patel", time: "01:00", text: "The user testing results are in — overall positive feedback on the new flow." },
+    ],
+    summary: {
+      overview: "Live standup meeting in progress — team sharing daily updates.",
+      agenda: ["Daily updates", "Blockers", "Priorities for today"],
+      keyPoints: ["Dashboard redesign completed", "User testing results positive"],
+      decisions: [],
+      actionItems: [],
+    },
+    analytics: { onTopicPercent: 95, offTopicPercent: 5, agendaCoverage: 60, productivityScore: 88 },
+  },
+  {
     id: "1",
     title: "Q1 Product Strategy Review",
     date: "2026-03-27",

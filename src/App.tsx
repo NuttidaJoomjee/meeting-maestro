@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { AppLayout } from "@/components/AppLayout";
 import Index from "./pages/Index.tsx";
 import MeetingWorkspace from "./pages/MeetingWorkspace.tsx";
+import Meetings from "./pages/Meetings.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/meeting/:id" element={<MeetingWorkspace />} />
+            <Route path="/meetings" element={<Meetings />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AppLayout>
