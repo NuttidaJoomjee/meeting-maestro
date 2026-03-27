@@ -34,7 +34,6 @@ const mainNav = [
 
 const toolsNav = [
   { title: "AI Chat", url: "/chat", icon: MessageSquare },
-  { title: "Settings", url: "/settings", icon: Settings },
 ];
 
 export function AppSidebar() {
