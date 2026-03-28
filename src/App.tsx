@@ -9,6 +9,7 @@ import MeetingWorkspace from "./pages/MeetingWorkspace.tsx";
 import NewMeeting from "./pages/NewMeeting.tsx";
 import Meetings from "./pages/Meetings.tsx";
 import Platforms from "./pages/Platforms.tsx";
+import Chat from "./pages/Chat.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
