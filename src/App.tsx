@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { AppLayout } from "@/components/AppLayout";
 import Index from "./pages/Index.tsx";
 import MeetingWorkspace from "./pages/MeetingWorkspace.tsx";
+import NewMeeting from "./pages/NewMeeting.tsx";
 import Meetings from "./pages/Meetings.tsx";
 import Platforms from "./pages/Platforms.tsx";
 import NotFound from "./pages/NotFound.tsx";
