@@ -4,9 +4,9 @@ import {
   FileText,
   BarChart3,
   MessageSquare,
-  Settings,
   Plus,
   Brain,
+  Monitor,
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
@@ -30,6 +30,7 @@ const mainNav = [
   { title: "Meetings", url: "/meetings", icon: Mic },
   { title: "Summaries", url: "/summaries", icon: FileText },
   { title: "Analytics", url: "/analytics", icon: BarChart3 },
+  { title: "Platforms", url: "/platforms", icon: Monitor },
 ];
 
 const toolsNav = [
