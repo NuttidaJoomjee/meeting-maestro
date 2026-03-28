@@ -27,6 +27,7 @@ const App = () => (
             <Route path="/meeting/:id" element={<MeetingWorkspace />} />
             <Route path="/meetings" element={<Meetings />} />
             <Route path="/platforms" element={<Platforms />} />
+            <Route path="/chat" element={<Chat />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AppLayout>
