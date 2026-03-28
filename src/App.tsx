@@ -7,6 +7,7 @@ import { AppLayout } from "@/components/AppLayout";
 import Index from "./pages/Index.tsx";
 import MeetingWorkspace from "./pages/MeetingWorkspace.tsx";
 import Meetings from "./pages/Meetings.tsx";
+import Platforms from "./pages/Platforms.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/meeting/:id" element={<MeetingWorkspace />} />
             <Route path="/meetings" element={<Meetings />} />
+            <Route path="/platforms" element={<Platforms />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AppLayout>
