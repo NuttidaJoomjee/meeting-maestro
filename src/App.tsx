@@ -22,6 +22,7 @@ const App = () => (
         <AppLayout>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/meeting/new" element={<NewMeeting />} />
             <Route path="/meeting/:id" element={<MeetingWorkspace />} />
             <Route path="/meetings" element={<Meetings />} />
             <Route path="/platforms" element={<Platforms />} />
